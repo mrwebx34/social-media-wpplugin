@@ -27,8 +27,7 @@ Customize social media links by configuring the following options in the WordPre
 5.YouTube
 6.Pinterest
 7.TikTok
-## Customization
-Tailor the appearance of the social media links using Bootstrap classes. Modify the HTML and CSS within the display_social_media_links function in frontend.php to align with your design preferences.
+
 
 ## Requirements
 WordPress 4.7 or higher
