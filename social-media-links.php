@@ -18,19 +18,19 @@ register_uninstall_hook(__FILE__, 'social_media_links_uninstall');
 // Activation function
 function social_media_links_activate()
 {
-    // Activation code here (if any)
+   
 }
 
 // Deactivation function
 function social_media_links_deactivate()
 {
-    // Deactivation code here (if any)
+    
 }
 
 // Uninstall function
 function social_media_links_uninstall()
 {
-    // Uninstall code here (if any)
+    
 }
 function social_media_links_enqueue_styles()
 {
@@ -56,6 +56,6 @@ function enqueue_frontend_styles()
 add_action('wp_enqueue_scripts', 'enqueue_frontend_styles');
 
 add_action('admin_enqueue_scripts', 'enqueue_admin_styles');
-// Include admin and public functionality
+
 include_once(plugin_dir_path(__FILE__) . 'admin/admin.php');
 include_once(plugin_dir_path(__FILE__) . 'public/frontend.php');
