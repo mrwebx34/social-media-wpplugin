@@ -1,4 +1,4 @@
-a {
+.social-media-links a {
     border: solid 1px #ccc;
     border-radius: 50%;
     width: 30px;
@@ -11,6 +11,6 @@ a {
     background: #000;
 }
 
-a i {
+.social-media-links a i {
     color: #fff;
 }
