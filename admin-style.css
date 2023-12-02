@@ -1,0 +1,9 @@
+input[type="submit"]{padding:15px 20px; border:0; background: rgb(36, 36, 196); margin-top:10px; color:#fff; cursor:pointer;}
+.form-div{display: grid; grid-template-columns:30px auto; place-items: center;} 
+.form-div input{
+    margin-left:30px;
+    width: 50%;
+    height:40px;
+    border-radius: 0px;
+    margin-bottom: 20px;
+}
